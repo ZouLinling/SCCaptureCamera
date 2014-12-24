@@ -5,22 +5,9 @@ A Custom Camera with AVCaptureSession to take a square picture. And the UI is pa
 
 It can work in iPad, too.
 
-ScreenShots：
-----------
-
-iPhone4:![image](https://github.com/xhzengAIB/SCCaptureCamera/raw/master/Screenshots/screenShot_iPhone4.png)          
-
-iPhone5:![image](https://github.com/xhzengAIB/SCCaptureCamera/raw/master/Screenshots/screenShot_iPhone5.png)
-
-
 Usage：
 ----------
-0、Import four frameworks: 
-```
-CoreMedia.framework、QuartzCore.framework、AVFoundation.framework、ImmageIO.framework
-```
-
-1、Drag "SCCaptureCamera" and "SCCommon" to your project.
+1、Add pod 'ZLUtil', :git => 'https://github.com/ZouLinling/ZLUtil.git' in your Podfile. Or you can drag SCCommon and SCCaptureCamera in your project(not recommended).
 
 2、Import "SCNavigationController.h" and code like this:
 ```
@@ -38,10 +25,6 @@ b. notification:
 ```
 add a notification whose name is kNotificationTakePicture (just search "kNotificationTakePicture" in my demo project)
 ```
-
-
-
-Finally, set ```SWITCH_SHOW_DEFAULT_IMAGE_FOR_NONE_CAMERA``` which is in the file ```SCCaptureCameraController.m``` to ```0```, it is just a joke for the devices which cannot take a picture.
 
 
 
