@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47C3E0FA1A0853A300DE3E22 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3E0F91A0853A300DE3E22 /* AssetsLibrary.framework */; };
+		70CD035DE99A45F6908F083A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393630163E6ADAD081874A2F /* libPods.a */; };
 		8858C6091A4A9AC10058B69E /* SCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858C6071A4A9AC10058B69E /* SCCommon.m */; };
 		8858C6221A4A9AFE0058B69E /* flashing_auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8858C60C1A4A9AFE0058B69E /* flashing_auto@2x.png */; };
 		8858C6231A4A9AFE0058B69E /* flashing_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8858C60D1A4A9AFE0058B69E /* flashing_off@2x.png */; };
@@ -27,6 +28,7 @@
 		8858C6311A4A9AFE0058B69E /* SCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858C61F1A4A9AFE0058B69E /* SCSlider.m */; };
 		8858C6321A4A9AFE0058B69E /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858C6211A4A9AFE0058B69E /* UIImage+Resize.m */; };
 		8858C6361A4A9C4A0058B69E /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858C6351A4A9C4A0058B69E /* PostViewController.m */; };
+		889072391A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 889072371A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		E14F600D188A2C8400FE3CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F600C188A2C8400FE3CCA /* UIKit.framework */; };
 		E14F600F188A2C8400FE3CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F600E188A2C8400FE3CCA /* Foundation.framework */; };
 		E14F6011188A2C8400FE3CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F6010188A2C8400FE3CCA /* CoreGraphics.framework */; };
@@ -75,6 +77,9 @@
 		8858C6211A4A9AFE0058B69E /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		8858C6341A4A9C4A0058B69E /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
 		8858C6351A4A9C4A0058B69E /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		889072371A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		889072381A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		B3E9DF600E7145D59DC3C866 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E14F6009188A2C8400FE3CCA /* SCCaptureCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCCaptureCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14F600C188A2C8400FE3CCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E14F600E188A2C8400FE3CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +120,7 @@
 				E14F600D188A2C8400FE3CCA /* UIKit.framework in Frameworks */,
 				E14F600F188A2C8400FE3CCA /* Foundation.framework in Frameworks */,
 				E14F6011188A2C8400FE3CCA /* CoreGraphics.framework in Frameworks */,
+				70CD035DE99A45F6908F083A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +130,8 @@
 		8858C6051A4A9AC10058B69E /* SCCommon */ = {
 			isa = PBXGroup;
 			children = (
+				889072371A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				889072381A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
 				8858C6061A4A9AC10058B69E /* SCCommon.h */,
 				8858C6071A4A9AC10058B69E /* SCCommon.m */,
 				8858C6081A4A9AC10058B69E /* SCDefines.h */,
@@ -185,6 +193,7 @@
 				E14F6012188A2C8400FE3CCA /* SCCaptureCameraDemo */,
 				E14F600B188A2C8400FE3CCA /* Frameworks */,
 				E14F600A188A2C8400FE3CCA /* Products */,
+				B3E9DF600E7145D59DC3C866 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14F602F188A2C8400FE3CCA /* Build configuration list for PBXNativeTarget "SCCaptureCameraDemo" */;
 			buildPhases = (
+				F89D963745784EE09C74C32C /* Check Pods Manifest.lock */,
 				E14F6005188A2C8400FE3CCA /* Sources */,
 				E14F6006188A2C8400FE3CCA /* Frameworks */,
 				E14F6007188A2C8400FE3CCA /* Resources */,
+				C16550E46E774FD78B7ACD61 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,6 +332,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C16550E46E774FD78B7ACD61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89D963745784EE09C74C32C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E14F6005188A2C8400FE3CCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -328,6 +372,7 @@
 			files = (
 				E14F6019188A2C8400FE3CCA /* main.m in Sources */,
 				E14F601D188A2C8400FE3CCA /* AppDelegate.m in Sources */,
+				889072391A4AA27F00E863B6 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				E14F6026188A2C8400FE3CCA /* ViewController.m in Sources */,
 				8858C6321A4A9AFE0058B69E /* UIImage+Resize.m in Sources */,
 				8858C6361A4A9C4A0058B69E /* PostViewController.m in Sources */,
@@ -429,6 +474,7 @@
 		};
 		E14F6030188A2C8400FE3CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E9DF600E7145D59DC3C866 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -449,6 +495,7 @@
 		};
 		E14F6031188A2C8400FE3CCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E9DF600E7145D59DC3C866 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

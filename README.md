@@ -7,7 +7,7 @@ It can work in iPad, too.
 
 Usage：
 ----------
-1、Add pod 'ZLUtil', :git => 'https://github.com/ZouLinling/ZLUtil.git' in your Podfile. Or you can drag SCCommon and SCCaptureCamera in your project(not recommended).
+1、Add pod 'SCCaptureCamera', :git => 'https://github.com/ZouLinling/SCCaptureCamera.git' in your Podfile. Or you can drag SCCommon and SCCaptureCamera in your project(not recommended).
 
 2、Import "SCNavigationController.h" and code like this:
 ```
